@@ -1,0 +1,3397 @@
+fileFormatVersion: 2
+guid: e93d23bd7e00c914f8afa40bb1151bc8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: forestboss_0
+    21300002: forestboss_1
+    21300004: forestboss_2
+    21300006: forestboss_3
+    21300008: forestboss_4
+    21300010: forestboss_5
+    21300012: forestboss_6
+    21300014: forestboss_7
+    21300016: forestboss_8
+    21300018: forestboss_9
+    21300020: forestboss_10
+    21300022: forestboss_11
+    21300024: forestboss_12
+    21300026: forestboss_13
+    21300028: forestboss_14
+    21300030: forestboss_15
+    21300032: forestboss_16
+    21300034: forestboss_17
+    21300036: forestboss_18
+    21300038: forestboss_19
+    21300040: forestboss_20
+    21300042: forestboss_21
+    21300044: forestboss_22
+    21300046: forestboss_23
+    21300048: forestboss_24
+    21300050: forestboss_25
+    21300052: forestboss_26
+    21300054: forestboss_27
+    21300056: forestboss_28
+    21300058: forestboss_29
+    21300060: forestboss_30
+    21300062: forestboss_31
+    21300064: forestboss_32
+    21300066: forestboss_33
+    21300068: forestboss_34
+    21300070: forestboss_35
+    21300072: forestboss_36
+    21300074: forestboss_37
+    21300076: forestboss_38
+    21300078: forestboss_39
+    21300080: forestboss_40
+    21300082: forestboss_41
+    21300084: forestboss_42
+    21300086: forestboss_43
+    21300088: forestboss_44
+    21300090: forestboss_45
+    21300092: forestboss_46
+    21300094: forestboss_47
+    21300096: forestboss_48
+    21300098: forestboss_49
+    21300100: forestboss_50
+    21300102: forestboss_51
+    21300104: forestboss_52
+    21300106: forestboss_53
+    21300108: forestboss_54
+    21300110: forestboss_55
+    21300112: forestboss_56
+    21300114: forestboss_57
+    21300116: forestboss_58
+    21300118: forestboss_59
+    21300120: forestboss_60
+    21300122: forestboss_61
+    21300124: forestboss_62
+    21300126: forestboss_63
+    21300128: forestboss_64
+    21300130: forestboss_65
+    21300132: forestboss_66
+    21300134: forestboss_67
+    21300136: forestboss_68
+    21300138: forestboss_69
+    21300140: forestboss_70
+    21300142: forestboss_71
+    21300144: forestboss_72
+    21300146: forestboss_73
+    21300148: forestboss_74
+    21300150: forestboss_75
+    21300152: forestboss_76
+    21300154: forestboss_77
+    21300156: forestboss_78
+    21300158: forestboss_79
+    21300160: forestboss_80
+    21300162: forestboss_81
+    21300164: forestboss_82
+    21300166: forestboss_83
+    21300168: forestboss_84
+    21300170: forestboss_85
+    21300172: forestboss_86
+    21300174: forestboss_87
+    21300176: forestboss_88
+    21300178: forestboss_89
+    21300180: forestboss_90
+    21300182: forestboss_91
+    21300184: forestboss_92
+    21300186: forestboss_93
+    21300188: forestboss_94
+    21300190: forestboss_95
+    21300192: forestboss_96
+    21300194: forestboss_97
+    21300196: forestboss_98
+    21300198: forestboss_99
+    21300200: forestboss_100
+    21300202: forestboss_101
+    21300204: forestboss_102
+    21300206: forestboss_103
+    21300208: forestboss_104
+    21300210: forestboss_105
+    21300212: forestboss_106
+    21300214: forestboss_107
+    21300216: forestboss_108
+    21300218: forestboss_109
+    21300220: forestboss_110
+    21300222: forestboss_111
+    21300224: forestboss_112
+    21300226: forestboss_113
+    21300228: forestboss_114
+    21300230: forestboss_115
+    21300232: forestboss_116
+    21300234: forestboss_117
+    21300236: forestboss_118
+    21300238: forestboss_119
+    21300240: forestboss_120
+    21300242: forestboss_121
+    21300244: forestboss_122
+    21300246: forestboss_123
+    21300248: forestboss_124
+    21300250: forestboss_125
+    21300252: forestboss_126
+    21300254: forestboss_127
+    21300256: forestboss_128
+    21300258: forestboss_129
+    21300260: forestboss_130
+    21300262: forestboss_131
+    21300264: forestboss_132
+    21300266: forestboss_133
+    21300268: forestboss_134
+    21300270: forestboss_135
+    21300272: forestboss_136
+    21300274: forestboss_137
+    21300276: forestboss_138
+    21300278: forestboss_139
+    21300280: forestboss_140
+    21300282: forestboss_141
+    21300284: forestboss_142
+    21300286: forestboss_143
+    21300288: forestboss_144
+    21300290: forestboss_145
+    21300292: forestboss_146
+    21300294: forestboss_147
+    21300296: forestboss_148
+    21300298: forestboss_149
+    21300300: forestboss_150
+    21300302: forestboss_151
+    21300304: forestboss_152
+    21300306: forestboss_153
+    21300308: forestboss_154
+    21300310: forestboss_155
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forestboss_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 528
+        width: 90
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf040638a37efd24c8dd392eaf5c7ac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 841
+        width: 564
+        height: 159
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de83df9fa2105aa43a15a238fc937d77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_2
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 742
+        width: 349
+        height: 258
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49444bf0c744505498bd573b108a748e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_3
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 992
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ea57ec77c8fbb4183881c34b333255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_4
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 994
+        width: 10
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecff85312fae0f4388cfc022e9c1e4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_5
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 960
+        width: 13
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b5c9169aa9bc7418f2e25bb9fc5032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_6
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 949
+        width: 11
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc3459a3ec47644a2ebd2711407bc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 852
+        width: 27
+        height: 31
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f25a07d04d10c941acb5acd9b9dd23b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_8
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 840
+        width: 12
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dfe8ec7f4942e4181ff6f04fbfb417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 504
+        height: 262
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fb21e3b0e25cd46b2c81c8c0cdb7b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_10
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 835
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d972ad23b7c86534f9b4c344a2530fb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_11
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 836
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf204b29b367d944a74c939d7c0cc3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_12
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 826
+        width: 7
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee263d89f1839ed4cacb4c1c58c53cc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_13
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 791
+        width: 7
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96c6d3fd6b3fcd4cb2664e226ee742b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_14
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 752
+        width: 74
+        height: 66
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b580d0aa8f1ed448bd1f78a243f634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_15
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 478
+        width: 261
+        height: 263
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea276c7142ff5a4f81d2b46112e46d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_16
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 737
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544a9cef3408c9142a4106bc48678450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_17
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 724
+        width: 12
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e34b975b569d944a2749a89f3ecec4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_18
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 713
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6b6cc7f5d7b2a4093f559b14ea8cdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_19
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 678
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e89c5b2d9298bd4fadead954ce0308c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_20
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 605
+        width: 15
+        height: 20
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b5c17781ee4da48a6e9032cd277093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 525
+        width: 100
+        height: 50
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2484238d616c8449dc143d1979c0d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_22
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 570
+        width: 15
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882509797eda2ac4ba8a4ad568a474ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_23
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 573
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cd6fd08380a8440b5d9e2f155e9053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_24
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 563
+        width: 23
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f14d165157bf645b3ec2e996043bf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_25
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 536
+        width: 40
+        height: 48
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ef4a1517e8cb046b48dcbff4aa3106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_26
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 526
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b18c3f41657524c8146c9e52f4db58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_27
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 529
+        width: 7
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00834d5b73cb23f4791bfb7cc4ab81c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 508
+        width: 15
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab22fb27acd0804d9d5798a0e5999f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_29
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 497
+        width: 34
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c22f6832dbd004c827238df35b8600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 498
+        width: 19
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9b0b67f1aa9b343bfe24a84fb0f849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_31
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 478
+        width: 38
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1592f7e4e1c734e925277e1cc997fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 514
+        width: 5
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b60d33fd9e338a45bf8de41092084b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_33
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 492
+        width: 37
+        height: 29
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de11b5434862a774ebdfdae815227d45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_34
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 518
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85019d1969b12494c849367162ca4331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_35
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 509
+        width: 23
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0760714bf5568ef41be05075900a38f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_36
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 511
+        width: 7
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f889ac3101e87648948dc0a3a78a3d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_37
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 515
+        width: 20
+        height: 11
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da09a50f0df9734ba3bf9881c90c7e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 31
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b970e956f342d494f9ca056b6a8fb95d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_39
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 499
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84758d6246d7c346abb344190242c4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_40
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 494
+        width: 19
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffb15d7e4ed2fb419188691b5a68cb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_41
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 506
+        width: 33
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f363014f60ab15b44aceaf06764775ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_42
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 495
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3b036c664804545b77797a4621773d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_43
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 497
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d1e6e6d0cfcb24b96acf1a48f6feb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_44
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 497
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f4bb94dba8c33439fe241273d11624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_45
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 489
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a2dc33b6404a24b82e7e109e7a2d46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_46
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 486
+        width: 4
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5ef670623eb164f97f661d51071c19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_47
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 490
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bbfe273a728f8418e9f715d13a9a76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcea0b632a5576c4a8e31de642c0e04c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 484
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607be1274c949a94b9c387ba0f5bcf5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_50
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 474
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf54eed66cae3504fa5e991691c36d0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_51
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 411
+        width: 40
+        height: 71
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f713e3cd091e18f43be452762517c7ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_52
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 379
+        width: 202
+        height: 98
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dd7ab128ecf1e4abcfd8bfb9be0b02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_53
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 470
+        width: 19
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a738c534b128794a8d8417886adebf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_54
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 112
+        width: 369
+        height: 365
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c8451a361e36144b281036f6e6990e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_55
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 458
+        width: 29
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ecffb393d9c3b4f8e236c828d95475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_56
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 408
+        width: 41
+        height: 69
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035517c13eff895468ade8ee9c7e7a8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_57
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 457
+        width: 4
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd569fb43fafe594cb89197bdeb3e931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_58
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 460
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5444d7ea8e1194446abed729678bc295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_59
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 466
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d041ecb4efbea542b5d271874aed332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_60
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 462
+        width: 7
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f0228bf989d8a41a3bc27cae988c82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_61
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 461
+        width: 6
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cfa453c4961094b83b6054ce9a1f09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_62
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 461
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de011de795e71ee41839efbfa659fc38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_63
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 450
+        width: 10
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa52ecdaed3ddd4d872671bc010b688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_64
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 414
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319255c1326357f4aace13940f9d5ec1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_65
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 428
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0181b5f5c3481134288cfbf416f9420a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 357
+        width: 54
+        height: 62
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f723606134ff19b4e945aff5f4fd58e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_67
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 416
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e045a23bfc380a42b41d645e4e30691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_68
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 365
+        width: 65
+        height: 43
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4341fcc7e78ec94b9d655f6a6e1b9a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_69
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 384
+        width: 4
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb9e72acfead0447a3276770b134715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_70
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 392
+        width: 9
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579538c875e51c54ca2adeef9b22a407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_71
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 393
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bc00881c654d541bd47a9606ba019e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_72
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 378
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea1a6e9b710a3a4b9a6c71c799a2cad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_73
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 383
+        width: 14
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dabaf3ab0993a747845b79279e52327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_74
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 256
+        width: 105
+        height: 119
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2142add9f6c14e4291032681974c5cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_75
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 277
+        width: 76
+        height: 98
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c58223a918b4c941bb8ce4bef6dd87f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_76
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 370
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705e302463e68214d9b1b93b19e3e471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_77
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 372
+        width: 8
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8deb02f6a6759c5499d047625e309696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_78
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 285
+        width: 42
+        height: 72
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769e1f168a6f5334baa3def64491fe5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 350
+        width: 8
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e61b28baf7aaa4c8c6e76165ab0277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_80
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 185
+        width: 67
+        height: 184
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f546d651f581847a5db882b8b861d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 54
+        height: 38
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e2ea6d9a5c1ad439b9c58135aefced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_82
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 309
+        width: 23
+        height: 37
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6420d8402c4a44a8f570f586527f9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_83
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 249
+        width: 48
+        height: 71
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142111f9e64f7a94b88c4cfbba92dec9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_84
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 315
+        width: 7
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ac22dd58bdfb547a1589fa195bf98a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 41
+        height: 72
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66186b3ad42b16944b3dd4dc5105fdea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_86
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 302
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87274d1e9e1b0604eb2951b2572f1f16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_87
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 306
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c4dc23d6c76384c885912d1953adde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_88
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 184
+        width: 59
+        height: 99
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6b8c19b7c801242a7114175e56f0e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_89
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 149
+        width: 96
+        height: 104
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ee3352ee49eb34892d3bda5dee3ca2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_90
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 145
+        width: 60
+        height: 110
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e4e7095989dbf49a5d963ee0ec4e8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_91
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 247
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c9a3338331ea9479c23a2507a066aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_92
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 224
+        width: 80
+        height: 78
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96599b3df3b55b9448bd714d75fa9bd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_93
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 239
+        width: 13
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed6563a55c505c4590c70c9b3ede8ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_94
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 162
+        width: 11
+        height: 60
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e45cf3e0d3d294ca541f3e40021cd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_95
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 215
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeaf7d8e205d1a44fa59d3159b953ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_96
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 217
+        width: 6
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e57581ad02aaf440a86edb1cedecf4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_97
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 197
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa3ea2ce725aad48a28ed348406e375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_98
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 201
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47c7eff395f33542ba2abc475c916d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_99
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 151
+        width: 63
+        height: 66
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ec04c156ce4ce4db0584de803fb82d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_100
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 196
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25f4c505139541489ced43397410759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_101
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 181
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1953cb2362a6564a940b71f1dd309dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_102
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 184
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270c846eece362c4da76e70e1e7bb699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_103
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 148
+        width: 46
+        height: 33
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c49cacddd1ff1e438c25dce81515d54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_104
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 173
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7bf3baf5b88ac4bbd3831dec083096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_105
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 135
+        width: 60
+        height: 46
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd4e9502a8a28544a44c798be3fd3d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_106
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 158
+        width: 17
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc6dd6592d1a344ba81baf7b871f647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_107
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 13
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1166c7b83c0d2594aad3cfaaa5f6b590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_108
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 171
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf445690b9ea68419aa7cca231313fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_109
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 165
+        width: 13
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bc16b290897b94abdc6c5fc5ec8518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_110
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 141
+        width: 15
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445cd3b6ce2766b439693ba206aa0ea9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_111
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 73
+        width: 44
+        height: 76
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc9e34b874874145b21097a507a496c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_112
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 139
+        width: 10
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53544e4917a1754fa861bdf1c2a1602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_113
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 119
+        width: 16
+        height: 28
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1473b39efd444841aead818cdbbfa27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_114
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 102
+        width: 39
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5529c36ca866141a668093fbb54f1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_115
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 100
+        width: 40
+        height: 44
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f31dbc8dfe7f34ebf15eeab340f50a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_116
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 127
+        width: 16
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89c01104b97fd94ab623901daf57027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_117
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 134
+        width: 13
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1595edf2d1b670f4d9d38cee0566fa63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_118
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 64
+        width: 38
+        height: 71
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6573c16cfda1be74bb4476098c965fe6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_119
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 119
+        width: 13
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c83c74c53ddca44a43365d472ef359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_120
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 107
+        width: 16
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e95e5886f1d0624080f278e514b71a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_121
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 112
+        width: 5
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce249030a95ac2241a183583fa50c3fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_122
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 114
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2987f5c1ca349384fa253887c461a9d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_123
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 110
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3d1335aa2deb44da5eb1777af1b04c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_124
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 95
+        width: 14
+        height: 12
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda66b0a53bd13746b4a82f6c21de397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_125
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 101
+        width: 12
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e9e76636606524096181f16fb65d26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_126
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 67
+        width: 64
+        height: 37
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b009d649e845140bb865826df429a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_127
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 87
+        width: 13
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0065532a2664b4ab7013ce5e3700bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_128
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 84
+        width: 17
+        height: 16
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84331ae50bb84545bdbb4947868adec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_129
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 84
+        width: 4
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a10ecf79b05d418dca00a9789c7d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_130
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 75
+        width: 11
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d007c2b0ed1118749994e591bdeef846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_131
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 80
+        width: 8
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1effcb70a76e41408cc169c01e638e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_132
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 38
+        width: 61
+        height: 62
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296015d06b5e94649bf00662c6ac6500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_133
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 61
+        width: 15
+        height: 18
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ea6c73b4af03245a93772fbfae8f69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_134
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 46
+        width: 12
+        height: 27
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b94d4d2091f2dc4398f66a43b6707c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_135
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 63
+        width: 9
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ed746475c6df943964979b373f7158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_136
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 70
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9cd8ca4ea3bb74fa7180cf5e0df450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_137
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 58
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89408c8531e46c743acef33c3ba911cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_138
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 62
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c1d83f8a6253746b761647d2becb33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_139
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 55
+        width: 12
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05afe0b7378a97944a067e10b632322e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_140
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 60
+        height: 59
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a20e003b0773f4bb97916b96529f53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_141
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 45
+        width: 16
+        height: 9
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f9e4c19090df543b8904b4d20c099b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_142
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 45
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defe57e62a52f2f4d87399bf402a8249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_143
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 16
+        width: 29
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf1647e77e189c4f9241da34d502c79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_144
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 22
+        width: 34
+        height: 33
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d73f282bd53f5744b5478e5e58503b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_145
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 2
+        width: 37
+        height: 39
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eee3d58a6b3f74e86b13793707cfb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_146
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 13
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46aff21311736f14aa9024b2d600796a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_147
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 33
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765087d95fec2f64abe67f081ad87a99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_148
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 4
+        width: 44
+        height: 24
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27343cb05b948644596230d332945f75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_149
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 25
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52be8f3ca8dd60f4797eb0c463126c43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_150
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 195
+        height: 33
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c589d8440b99a48b1d364f84fbcc76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_151
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 2
+        width: 33
+        height: 26
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9cb4153d167e14f89443a499e7ae33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_152
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 21
+        height: 19
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385f14c522777f34ab972dd896c2d0ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_153
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 2
+        width: 22
+        height: 17
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa911953e130394da91dd419fd97687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_154
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 18
+        width: 5
+        height: 5
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eab2b1d536939c49b051a21a756c30c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestboss_155
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 6
+        width: 6
+        height: 6
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5360ac8ade644ff419a42fb50a2b441a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d7c25304a35d702429ff047cb039aac8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
