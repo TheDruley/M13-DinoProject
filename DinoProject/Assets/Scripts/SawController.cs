@@ -3,13 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PinchoController : MonoBehaviour
+public class SawController : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    
-    
-
     void Start()
     {
         
@@ -26,9 +22,6 @@ public class PinchoController : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            //Destroy(col);
         }
     }
-
-    
 }
