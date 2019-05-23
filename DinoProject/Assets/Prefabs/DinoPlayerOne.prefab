@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4461426426871428418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.28, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4461426428156131392}
@@ -150,11 +150,12 @@ GameObject:
   - component: {fileID: 4461426428156131392}
   - component: {fileID: 4461426428156131393}
   - component: {fileID: 4461426428156131394}
-  - component: {fileID: 4461426428156131407}
   - component: {fileID: 4461426428156131404}
+  - component: {fileID: 3220425232044409337}
   - component: {fileID: 4461426428156131405}
   - component: {fileID: 4461426428156131406}
   - component: {fileID: 4461426428156131403}
+  - component: {fileID: 3639854557569267204}
   m_Layer: 8
   m_Name: DinoPlayerOne
   m_TagString: Player
@@ -219,32 +220,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &4461426428156131407
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4461426428156131395}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.04892087, y: 0.23337102}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9375, y: 1.0625}
-    newSize: {x: 0.9375, y: 1.0625}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6269736, y: 0.47508192}
-  m_EdgeRadius: 0
 --- !u!58 &4461426428156131404
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -261,6 +236,37 @@ CircleCollider2D:
   m_Offset: {x: -0.0039212704, y: -0.18958211}
   serializedVersion: 2
   m_Radius: 0.2722752
+--- !u!60 &3220425232044409337
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461426428156131395}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.35210752, y: 0.48665428}
+      - {x: -0.34921074, y: 0.48243016}
+      - {x: -0.23075819, y: -0.033757567}
+      - {x: 0.22055721, y: -0.033757567}
+      - {x: 0.23928261, y: 0.052592397}
+      - {x: 0.31051254, y: 0.28293383}
 --- !u!114 &4461426428156131405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,6 +281,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 4461426428156131393}
   runSpeed: 40
+  m_CrouchHeadCollider: {fileID: 0}
+  m_CrouchBodyCollider: {fileID: 0}
+  m_StandUpHeadCollider: {fileID: 3220425232044409337}
+  m_StandUpBodyCollider: {fileID: 4461426428156131404}
 --- !u!114 &4461426428156131406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,6 +307,7 @@ MonoBehaviour:
     m_Bits: 567
   m_GroundCheck: {fileID: 4461426426871428417}
   m_CeilingCheck: {fileID: 4461426427098846537}
+  m_CrouchDisableCollider: {fileID: 3220425232044409337}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -377,3 +388,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &3639854557569267204
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4461426428156131395}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.28387308, y: 0.41850865}
+      - {x: -0.21790028, y: 0.019449234}
+      - {x: -0.48412752, y: -0.095654786}
+      - {x: -0.35432053, y: -0.37321657}
+      - {x: -0.015399933, y: -0.41963476}
+      - {x: 0.5055628, y: 0.4096983}
