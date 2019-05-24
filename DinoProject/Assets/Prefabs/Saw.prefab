@@ -44,8 +44,8 @@ GameObject:
   - component: {fileID: 3401301110068680841}
   - component: {fileID: 2895427877387496857}
   m_Layer: 0
-  m_Name: Sierra
-  m_TagString: Untagged
+  m_Name: Saw
+  m_TagString: Muerte
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
