@@ -63,7 +63,6 @@ public class CharacterController2D : MonoBehaviour
                     OnLandEvent.Invoke();
                     doubleJump = true;
                 }
-                Debug.Log("GROUNDED");
                 //if (!wasGrounded)
                 //    OnLandEvent.Invoke();
             }
