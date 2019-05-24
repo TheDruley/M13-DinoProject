@@ -554,7 +554,7 @@ PrefabInstance:
     - target: {fileID: 3220425232044409337, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
       propertyPath: m_Material
-      value: 
+      value:
       objectReference: {fileID: 6200000, guid: ee684a502a4259c4db7d26a14b7ea105, type: 2}
     - target: {fileID: 3220425232044409337, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
@@ -619,7 +619,7 @@ PrefabInstance:
     - target: {fileID: 4461426428156131407, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
       propertyPath: m_Material
-      value: 
+      value:
       objectReference: {fileID: 6200000, guid: ee684a502a4259c4db7d26a14b7ea105, type: 2}
     - target: {fileID: 4461426428156131407, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
@@ -649,7 +649,7 @@ PrefabInstance:
     - target: {fileID: 4461426428156131404, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
       propertyPath: m_Material
-      value: 
+      value:
       objectReference: {fileID: 6200000, guid: ee684a502a4259c4db7d26a14b7ea105, type: 2}
     - target: {fileID: 4461426428156131404, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
@@ -664,7 +664,7 @@ PrefabInstance:
     - target: {fileID: 4461426428156131406, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
       propertyPath: m_CrouchDisableCollider
-      value: 
+      value:
       objectReference: {fileID: 1044450797}
     - target: {fileID: 4461426428156131406, guid: 3bfc41ebcd50e8e40a9357899e921380,
         type: 3}
