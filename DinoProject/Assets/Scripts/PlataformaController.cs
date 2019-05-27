@@ -33,7 +33,7 @@ public class PlataformaController : MonoBehaviour
         {
             transform.position = new Vector2(transform.position.x + moveSpeed * Time.deltaTime, transform.position.y);
         }
-        else
+        else if(!moveRight)
         {
             transform.position = new Vector2(transform.position.x - moveSpeed * Time.deltaTime, transform.position.y);
         }

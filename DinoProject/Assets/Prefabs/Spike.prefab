@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 5076210073712639497}
   - component: {fileID: 5076210073712639496}
   m_Layer: 0
-  m_Name: Pinxo
-  m_TagString: Untagged
+  m_Name: Spike
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119,3 +119,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 611d4ff3876eb094dabecfea8351987c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
