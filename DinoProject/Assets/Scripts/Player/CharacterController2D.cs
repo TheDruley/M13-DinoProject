@@ -34,7 +34,8 @@ public class CharacterController2D : MonoBehaviour
     private bool m_wasCrouching = false;
 
     private AudioSource audioPlayer;
-    public AudioClip jumpClip;
+    public AudioClip firstJumpClip;
+    public AudioClip secondJumpClip;
     public AudioClip deathClip;
     public AudioClip footstepsClip;
 
@@ -170,7 +171,11 @@ public class CharacterController2D : MonoBehaviour
 
     private void Jump()
     {
-        audioPlayer.clip = jumpClip;
+        if (doubleJump)
+            audioPlayer.clip = firstJumpClip;
+        else
+            audioPlayer.clip = secondJumpClip;
+
         audioPlayer.Play();
 
         m_Grounded = false;

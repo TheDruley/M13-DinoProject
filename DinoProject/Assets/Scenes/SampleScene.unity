@@ -1111,11 +1111,26 @@ PrefabInstance:
       propertyPath: deathClip
       value: 
       objectReference: {fileID: 8300000, guid: 834cbca485b096242bc79580ad94e0a6, type: 3}
+    - target: {fileID: 6540387246716810783, guid: 63083accc6b315a4fa2bd78df91d3da5,
+        type: 3}
+      propertyPath: firstJumpClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d4f41173f3846b44a91df9b48050c784, type: 3}
+    - target: {fileID: 6540387246716810783, guid: 63083accc6b315a4fa2bd78df91d3da5,
+        type: 3}
+      propertyPath: secondJumpClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 1c9b896eac157704e9f3eff970090d41, type: 3}
     - target: {fileID: 6540387247080808852, guid: 63083accc6b315a4fa2bd78df91d3da5,
         type: 3}
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 291956604}
+    - target: {fileID: 6540387247080808852, guid: 63083accc6b315a4fa2bd78df91d3da5,
+        type: 3}
+      propertyPath: deathClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 834cbca485b096242bc79580ad94e0a6, type: 3}
     - target: {fileID: 1742805621876934703, guid: 63083accc6b315a4fa2bd78df91d3da5,
         type: 3}
       propertyPath: m_Volume

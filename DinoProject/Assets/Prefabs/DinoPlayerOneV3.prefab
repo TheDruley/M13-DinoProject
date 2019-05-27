@@ -287,6 +287,9 @@ MonoBehaviour:
   m_CrouchBodyCollider: {fileID: 0}
   m_StandUpHeadCollider: {fileID: 5449086791983533992}
   m_StandUpBodyCollider: {fileID: 6540387246716810781}
+  jumpClip: {fileID: 0}
+  deathClip: {fileID: 0}
+  footstepsClip: {fileID: 0}
 --- !u!114 &6540387246716810783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +345,10 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+  firstJumpClip: {fileID: 0}
+  secondJumpClip: {fileID: 0}
+  deathClip: {fileID: 0}
+  footstepsClip: {fileID: 0}
 --- !u!212 &6540387246716810778
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -436,6 +443,7 @@ MonoBehaviour:
   bloodSplash: {fileID: 6376710816155718193, guid: b5c95008d58121d4bad2b8606727ef87,
     type: 3}
   spawnPoint: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: 834cbca485b096242bc79580ad94e0a6, type: 3}
 --- !u!82 &1742805621876934703
 AudioSource:
   m_ObjectHideFlags: 0
