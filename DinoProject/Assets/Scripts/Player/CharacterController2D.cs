@@ -33,9 +33,15 @@ public class CharacterController2D : MonoBehaviour
     public BoolEvent OnCrouchEvent;
     private bool m_wasCrouching = false;
 
+    private AudioSource audioPlayer;
+    public AudioClip jumpClip;
+    public AudioClip deathClip;
+    public AudioClip footstepsClip;
+
     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        audioPlayer = GetComponent<AudioSource>();
 
         if (OnLandEvent == null)
             OnLandEvent = new UnityEvent();
@@ -164,6 +170,9 @@ public class CharacterController2D : MonoBehaviour
 
     private void Jump()
     {
+        audioPlayer.clip = jumpClip;
+        audioPlayer.Play();
+
         m_Grounded = false;
         m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0f);
         m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
