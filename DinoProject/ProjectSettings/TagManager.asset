@@ -8,6 +8,7 @@ TagManager:
   - Muerte
   - Spike
   - SawGenerator
+  - Player2
   layers:
   - Default
   - TransparentFX

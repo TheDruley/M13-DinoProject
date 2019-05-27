@@ -45,17 +45,15 @@ public class Player2Movement : MonoBehaviour
 
         if (Input.GetButtonDown("Player2JumpTest"))
         {
-            //audioPlayer.clip = jumpClip;
-            //audioPlayer.Play();
 
             jump = true;
-            animator.SetBool("IsJumping", true);
+            //animator.SetBool("IsJumping", true);
         }
 
         if (Input.GetButtonDown("Crouch"))
         {
             crouch = true;
-            animator.SetBool("IsCrouching", true);
+            //animator.SetBool("IsCrouching", true);
         }
         else if (Input.GetButtonUp("Crouch"))
         {

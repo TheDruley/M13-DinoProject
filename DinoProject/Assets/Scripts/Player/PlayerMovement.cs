@@ -39,12 +39,12 @@ public class PlayerMovement : MonoBehaviour
         {
             if (animator.GetBool("IsJumping"))
             {
-                Debug.Log("Caminar.mp3");
+                //Debug.Log("Caminar.mp3");
             }
         }
 
-        //if (Input.GetButtonDown("Jump"))
-        if (Input.GetButtonDown("XboxJump"))
+        //if ()
+        if (Input.GetButtonDown("XboxJump") || Input.GetButtonDown("Jump"))
         {
             //audioPlayer.clip = jumpClip;
             //audioPlayer.Play();

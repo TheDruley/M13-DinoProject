@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 8910266310326515404}
   - component: {fileID: 7172000525717084606}
   m_Layer: 8
-  m_Name: DinoPlayerTwoV3 1
+  m_Name: DinoPlayerTwoV4
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 567
+    m_Bits: 4294967295
   m_GroundCheck: {fileID: 4128692510032709107}
   m_CeilingCheck: {fileID: 4128692510725940731}
   m_CrouchDisableCollider: {fileID: 2888808384391328075}
@@ -346,9 +346,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  firstJumpClip: {fileID: 0}
-  secondJumpClip: {fileID: 0}
-  deathClip: {fileID: 0}
+  firstJumpClip: {fileID: 8300000, guid: d4f41173f3846b44a91df9b48050c784, type: 3}
+  secondJumpClip: {fileID: 8300000, guid: 1c9b896eac157704e9f3eff970090d41, type: 3}
+  deathClip: {fileID: 8300000, guid: 834cbca485b096242bc79580ad94e0a6, type: 3}
   footstepsClip: {fileID: 0}
 --- !u!212 &4128692511850875129
 SpriteRenderer:
@@ -457,7 +457,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
