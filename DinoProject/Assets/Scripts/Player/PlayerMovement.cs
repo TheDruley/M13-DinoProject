@@ -12,6 +12,11 @@ public class PlayerMovement : MonoBehaviour
     private bool jump = false;
     private bool crouch = false;
 
+    [SerializeField] private Collider2D m_CrouchHeadCollider;
+    [SerializeField] private Collider2D m_CrouchBodyCollider;
+
+    [SerializeField] private Collider2D m_StandUpHeadCollider;
+    [SerializeField] private Collider2D m_StandUpBodyCollider;
 
     private void Start()
     {
@@ -36,9 +41,10 @@ public class PlayerMovement : MonoBehaviour
             crouch = true;
             animator.SetBool("IsCrouching", true);
         }
-        else
+        else if(Input.GetButtonUp("Crouch"))
         {
             crouch = false;
+            animator.SetBool("IsCrouching", false);
         }
     }
 

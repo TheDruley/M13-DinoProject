@@ -11,7 +11,7 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character
     [SerializeField] private Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.
     [SerializeField] private Transform m_CeilingCheck;                          // A position marking where to check for ceilings
-    //[SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
+    [SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
 
     const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
@@ -19,6 +19,8 @@ public class CharacterController2D : MonoBehaviour
     private Rigidbody2D m_Rigidbody2D;
     private bool isPlayerFacingRight = true;  // For determining which way the player is currently facing.
     private Vector3 m_Velocity = Vector3.zero;
+
+    private bool doubleJump = true;
 
     [Header("Events")]
     [Space]
@@ -55,8 +57,14 @@ public class CharacterController2D : MonoBehaviour
             if (colliders[i].gameObject != gameObject)
             {
                 m_Grounded = true;
-                if (!wasGrounded)
+
+                if (m_Grounded)
+                {
                     OnLandEvent.Invoke();
+                    doubleJump = true;
+                }
+                //if (!wasGrounded)
+                //    OnLandEvent.Invoke();
             }
         }
     }
@@ -76,54 +84,54 @@ public class CharacterController2D : MonoBehaviour
         }
 
         //only control the player if grounded or airControl is turned on
-        if (m_Grounded || m_AirControl)
+        //if (m_Grounded || m_AirControl)
+        //{
+
+        // If crouching
+        if (crouch)
         {
-
-            // If crouching
-            if (crouch)
+            if (!m_wasCrouching)
             {
-                if (!m_wasCrouching)
-                {
-                    m_wasCrouching = true;
-                    OnCrouchEvent.Invoke(true);
-                }
-
-                // Reduce the speed by the crouchSpeed multiplier
-                move *= m_CrouchSpeed;
-
-                // Disable one of the colliders when crouching
-                //if (m_CrouchDisableCollider != null)
-                //    m_CrouchDisableCollider.enabled = false;
-            }
-            else
-            {
-                // Enable the collider when not crouching
-                //if (m_CrouchDisableCollider != null)
-                //    m_CrouchDisableCollider.enabled = true;
-
-                if (m_wasCrouching)
-                {
-                    m_wasCrouching = false;
-                    OnCrouchEvent.Invoke(false);
-                }
+                m_wasCrouching = true;
+                OnCrouchEvent.Invoke(true);
             }
 
-            // Move the character by finding the target velocity
-            targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+            // Reduce the speed by the crouchSpeed multiplier
+            move *= m_CrouchSpeed;
 
-            // And then smoothing it out and applying it to the character
-            m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+            // Disable one of the colliders when crouching
+            if (m_CrouchDisableCollider != null)
+                m_CrouchDisableCollider.enabled = false;
+        }
+        else
+        {
+            // Enable the collider when not crouching
+            if (m_CrouchDisableCollider != null)
+                m_CrouchDisableCollider.enabled = true;
 
-
-            if (move > 0 && !isPlayerFacingRight)
+            if (m_wasCrouching)
             {
-                FlipCharacter();
-            }
-            else if (move < 0 && isPlayerFacingRight)
-            {
-                FlipCharacter();
+                m_wasCrouching = false;
+                OnCrouchEvent.Invoke(false);
             }
         }
+
+        // Move the character by finding the target velocity
+        targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
+
+        // And then smoothing it out and applying it to the character
+        m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
+
+
+        if (move > 0 && !isPlayerFacingRight)
+        {
+            FlipCharacter();
+        }
+        else if (move < 0 && isPlayerFacingRight)
+        {
+            FlipCharacter();
+        }
+        //}
 
         // If the player press de jump button
 
@@ -132,20 +140,36 @@ public class CharacterController2D : MonoBehaviour
         if (jumpButtonPressed)
         {
             // Add a vertical force to the player.
-            m_Grounded = false;
-            m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x,0f);
-            m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            if (m_Grounded)
+            {
+                Jump();
+            }
+            else
+            {
+                if (doubleJump)
+                {
+                    doubleJump = false;
+                    Jump();
+                }
+            }
         }
+
+        //if (m_Grounded)
+        //{
+        //    doubleJump = true;
+        //}
+
+
     }
 
-
-    private void Jump(bool jumpButtonPressed)
+    private void Jump()
     {
-        //if (m_Grounded && jumpButtonPressed)
+        m_Grounded = false;
+        m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, 0f);
+        m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
     }
 
-    
-    
+
 
 
     private void FlipCharacter()

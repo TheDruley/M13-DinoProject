@@ -5,44 +5,47 @@ TagManager:
   serializedVersion: 2
   tags:
   - Platform
-  - Spike
+  - Muerte
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  -
   - Water
   - UI
-  - 
-  - 
+  -
+  -
   - Player
   - Map
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
+  -
   m_SortingLayers:
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Player
     uniqueID: 3532848261
+    locked: 0
+  - name: Background
+    uniqueID: 1971456071
     locked: 0
