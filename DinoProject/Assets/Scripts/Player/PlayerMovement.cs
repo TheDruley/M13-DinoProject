@@ -27,11 +27,19 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
+
+        if (horizontalMove > 0)
+        {
+            if (animator.GetBool("IsJumping"))
+            {
+                Debug.Log("Caminar.mp3");
+            }
+        }
 
         if (Input.GetButtonDown("Jump") || Input.GetButtonDown("XboxJump"))
         {
+            Debug.Log("Salto.mp3");
             jump = true;
             animator.SetBool("IsJumping", true);
         }
@@ -41,15 +49,17 @@ public class PlayerMovement : MonoBehaviour
             crouch = true;
             animator.SetBool("IsCrouching", true);
         }
-        else if(Input.GetButtonUp("Crouch"))
+        else if (Input.GetButtonUp("Crouch"))
         {
             crouch = false;
             animator.SetBool("IsCrouching", false);
         }
+
     }
 
     public void OnLanding()
     {
+        //Debug.Log("TocaElSuelo.mp3");
         animator.SetBool("IsJumping", false);
     }
 
