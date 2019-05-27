@@ -26,7 +26,7 @@ public class SpawnerScript : MonoBehaviour
 
     public void SpawnPlayer(GameObject player)
     {
-        StartCoroutine(waiter(1, player));
+        //StartCoroutine(waiter(1, player));
     }
 
 
@@ -34,6 +34,6 @@ public class SpawnerScript : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
 
-        Instantiate(DinoPlayer, gameObject.transform.position, Quaternion.identity);
+        //Instantiate(DinoPlayer, gameObject.transform.position, Quaternion.identity);
     }
 }

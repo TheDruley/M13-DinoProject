@@ -43,7 +43,8 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (Input.GetButtonDown("Jump"))
+        //if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("XboxJump"))
         {
             //audioPlayer.clip = jumpClip;
             //audioPlayer.Play();
