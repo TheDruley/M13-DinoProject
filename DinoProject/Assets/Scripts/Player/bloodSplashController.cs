@@ -9,13 +9,14 @@ public class bloodSplashController : MonoBehaviour
 
     void Start()
     {
-        
+        Debug.Log("DeathSound.mp3");
     }
 
     // Update is called once per frame
     void Update()
     {
         lifeTime -= Time.deltaTime;
+        
 
         if (lifeTime <= 0)
         {
