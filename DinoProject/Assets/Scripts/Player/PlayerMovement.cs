@@ -18,9 +18,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Collider2D m_StandUpHeadCollider;
     [SerializeField] private Collider2D m_StandUpBodyCollider;
 
+    private AudioSource audioPlayer;
+    public AudioClip jumpClip;
+    public AudioClip deathClip;
+    public AudioClip footstepsClip;
+
     private void Start()
     {
         controller = GetComponent<CharacterController2D>();
+        audioPlayer = GetComponent<AudioSource>();
     }
 
 
@@ -39,7 +45,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") || Input.GetButtonDown("XboxJump"))
         {
-            Debug.Log("Salto.mp3");
+            //audioPlayer.clip = jumpClip;
+            //audioPlayer.Play();
+
             jump = true;
             animator.SetBool("IsJumping", true);
         }
