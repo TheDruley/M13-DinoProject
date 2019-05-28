@@ -5,7 +5,7 @@ using UnityEngine;
 public class bloodSplashController : MonoBehaviour
 {
     // Start is called before the first frame update
-    private float lifeTime = 10f;
+    private float lifeTime = 30f;
 
     void Start()
     {
