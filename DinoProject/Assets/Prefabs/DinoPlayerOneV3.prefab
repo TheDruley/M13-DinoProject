@@ -155,7 +155,6 @@ GameObject:
   - component: {fileID: 6540387246716810780}
   - component: {fileID: 6540387246716810783}
   - component: {fileID: 6540387246716810778}
-  - component: {fileID: 6173705365419817045}
   - component: {fileID: 6540387247080808852}
   - component: {fileID: 1742805621876934703}
   m_Layer: 8
@@ -309,7 +308,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 567
+    m_Bits: 4294967295
   m_GroundCheck: {fileID: 6540387245322664720}
   m_CeilingCheck: {fileID: 6540387245625547544}
   m_CrouchDisableCollider: {fileID: 5449086791983533992}
@@ -345,9 +344,9 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: CharacterController2D+BoolEvent, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  firstJumpClip: {fileID: 0}
-  secondJumpClip: {fileID: 0}
-  deathClip: {fileID: 0}
+  firstJumpClip: {fileID: 8300000, guid: d4f41173f3846b44a91df9b48050c784, type: 3}
+  secondJumpClip: {fileID: 8300000, guid: 1c9b896eac157704e9f3eff970090d41, type: 3}
+  deathClip: {fileID: 8300000, guid: 834cbca485b096242bc79580ad94e0a6, type: 3}
   footstepsClip: {fileID: 0}
 --- !u!212 &6540387246716810778
 SpriteRenderer:
@@ -397,37 +396,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &6173705365419817045
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6540387246716810770}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.28387308, y: 0.41850865}
-      - {x: -0.21790028, y: 0.019449234}
-      - {x: -0.48412752, y: -0.095654786}
-      - {x: -0.35432053, y: -0.37321657}
-      - {x: -0.015399933, y: -0.41963476}
-      - {x: 0.5055628, y: 0.4096983}
 --- !u!114 &6540387247080808852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -456,7 +424,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0

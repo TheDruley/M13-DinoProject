@@ -5,10 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SawController : MonoBehaviour
 {
+
+    public Sprite[] bloodLevel;
+    public SpriteRenderer spriteController;
+    private int cont;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        spriteController.GetComponent<SpriteRenderer>().sprite = bloodLevel[0];
     }
 
     // Update is called once per frame
@@ -17,11 +22,15 @@ public class SawController : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Player")
+        if (col.gameObject.tag.Equals("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            if (cont < 3)
+            {
+                cont++;
+                spriteController.GetComponent<SpriteRenderer>().sprite = bloodLevel[cont];
+            }
         }
     }
 }

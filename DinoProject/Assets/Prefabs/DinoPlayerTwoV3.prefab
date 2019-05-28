@@ -68,7 +68,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b4738926527e32429406e8467853fd1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b2a5e111e004404280b4c03d9c8ca39, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 6540387247080808852}
   - component: {fileID: 1742805621876934703}
   m_Layer: 8
-  m_Name: DinoPlayerOneV3
+  m_Name: DinoPlayerTwoV3
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
