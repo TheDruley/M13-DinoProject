@@ -28,7 +28,7 @@
 697,698,699,700,0,0,0,0,698,699,640,640,641,642,0,0,0,0,0,0,639,640,641,641,698,699,0,0,0,0,639,641,642,0,0,0,0,697,669,670
 </data>
  </layer>
- <objectgroup id="3" name="Capa de Objetos 1">
+ <objectgroup id="3" name="Capa de Objetos 1" visible="0">
   <object id="1" x="0" y="240">
    <polygon points="0,0 64,0 64,-240 0,-240"/>
   </object>
