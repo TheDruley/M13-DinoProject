@@ -135,6 +135,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blood1: {fileID: -9187242211370392559, guid: ae3e6ce60a895cb48b54a6138632b52b, type: 3}
   blood2: {fileID: 4092514144187842027, guid: ae3e6ce60a895cb48b54a6138632b52b, type: 3}
+  bloodLevel:
+  - {fileID: -675650125194207516, guid: ae3e6ce60a895cb48b54a6138632b52b, type: 3}
+  - {fileID: 836368137489115739, guid: ae3e6ce60a895cb48b54a6138632b52b, type: 3}
+  - {fileID: -9187242211370392559, guid: ae3e6ce60a895cb48b54a6138632b52b, type: 3}
+  - {fileID: 4092514144187842027, guid: ae3e6ce60a895cb48b54a6138632b52b, type: 3}
+  spriteController: {fileID: 1115925172337508622}
 --- !u!61 &5482670316778175678
 BoxCollider2D:
   m_ObjectHideFlags: 0

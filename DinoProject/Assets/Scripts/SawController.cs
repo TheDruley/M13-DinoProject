@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SawController : MonoBehaviour {
+public class SawController : MonoBehaviour
+{
 
-    public Sprite blood1;
-    public Sprite blood2;
-    private SpriteRenderer spriteRenderer;
+    public Sprite[] bloodLevel;
+    public SpriteRenderer spriteController;
+    private int cont;
 
     // Start is called before the first frame update
     void Start()
     {
-        spriteRenderer.GetComponent<SpriteRenderer>();
+        spriteController.GetComponent<SpriteRenderer>().sprite = bloodLevel[0];
     }
 
     // Update is called once per frame
@@ -25,9 +26,11 @@ public class SawController : MonoBehaviour {
     {
         if (col.gameObject.tag.Equals("Player"))
         {
-            Debug.Log("sangre");
-            spriteRenderer.sprite = blood1;
-            spriteRenderer.GetComponent<SpriteRenderer>().sprite = blood2;
+            if (cont < 3)
+            {
+                cont++;
+                spriteController.GetComponent<SpriteRenderer>().sprite = bloodLevel[cont];
+            }
         }
     }
 }
