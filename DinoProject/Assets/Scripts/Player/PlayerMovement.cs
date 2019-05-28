@@ -68,7 +68,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnLanding()
     {
-        //Debug.Log("TocaElSuelo.mp3");
         animator.SetBool("IsJumping", false);
     }
 
